@@ -23,6 +23,7 @@ public class Weapon : MonoBehaviour
     private void FireWeapon()
     {
         GameObject bullet = Instantiate(bulletPrefab,bulletSpawn.position,Quaternion.identity);
+        
 
         bullet.GetComponent<Rigidbody>().AddForce(bulletSpawn.forward.normalized * bulletVelocity, ForceMode.Impulse);
 

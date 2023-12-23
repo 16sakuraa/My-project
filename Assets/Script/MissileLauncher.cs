@@ -54,15 +54,6 @@ public class MissileLauncher : MonoBehaviour
 
         if (Subject != null)
         {
-            // if (targetText != null)
-            // {
-                // for drawing X over target
-
-                // targetText.enabled = true;
-                // Vector3 screenPosition = PlayerCamera.WorldToScreenPoint(Subject.position);
-                // targetText.transform.position = screenPosition;
-                
-            // }
 
             if (targetMark != null)
             {
